@@ -1,14 +1,19 @@
 print("bienvenido a BDAA")
-nombre = input("nombre de usuario")
-print("bienvenido",nombre)
-if nombre =="santiago":
-  print("usted es un administrador")
+
+nombre = input("nombre de usuario ")
+
+print("bienvenido", nombre)
+
+if nombre == "santiago":
+    print("usted es un administrador")
 else:
     print("usted es un invitado")
-    #Primera parte completada!
-    opción = input("desea continuar?")
+
+# Primera parte completada!
+
+opción = input("desea continuar? ")
+
 if opción == "si":
     print("ok")
 else:
     print("adios!")
-    #revisar parrafo №10 hasta el №13, ya que al ejecutar el código, sale invertido.
