@@ -11,4 +11,3 @@ if opción == "si":
     print("ok")
 else:
     print("adios!")
-    
